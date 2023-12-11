@@ -1,0 +1,17 @@
+// Setup
+let sum = 0;
+
+function addThree() {
+  sum = 8;
+}
+
+// Only change code below this line
+
+function addFive (sum){
+  sum = sum + 5;
+}
+
+// Only change code above this line
+
+addThree(3);
+addFive(5);
