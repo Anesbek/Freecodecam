@@ -1,0 +1,22 @@
+// let a =1
+    let [a, setA]=useState(1)
+
+ const onClickhandler=()=>{
+     setA(++a)
+     console.log(a)
+ }
+ const onClickhandled=()=>{
+     setA(0)
+     
+ }
+
+    return (
+        <div className={"App"}>
+            {/*<Button name={"1+"} callBack={()=>Button1Foo('I am tanos', 21,"haha")}/>*/}
+            {/*<Button name={'2+'} callBack={()=>Button2Foo('I am Tor')}/>*/}
+            <h1>{a}</h1>
+            <button onClick={onClickhandler}>number</button>
+            <button onClick={onClickhandled}>0</button>
+
+        </div>
+    );
